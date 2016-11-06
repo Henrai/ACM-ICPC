@@ -1,0 +1,183 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'uva-node' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /usr/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/lib/package.json
+6 silly cache add args [ 'uva-node', null ]
+7 verbose cache add spec uva-node
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'uva-node',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'uva-node',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed uva-node@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for uva-node
+11 info addNameTag [ 'uva-node', 'latest' ]
+12 silly mapToRegistry name uva-node
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'uva-node',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'uva-node',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/uva-node
+17 verbose addNameTag registry:https://registry.npmjs.org/uva-node not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/uva-node
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 2:26:41 PM
+21 verbose request id 6060b345997a68d6
+22 http request GET https://registry.npmjs.org/uva-node
+23 http 200 https://registry.npmjs.org/uva-node
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"UQGS8G2Y9SP1ADWVAPV6EC37"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '4904',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Mon, 17 Oct 2016 21:26:37 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sjc3625-SJC',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1476739597.556907,VS0,VE43',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"UQGS8G2Y9SP1ADWVAPV6EC37"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '4904',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Mon, 17 Oct 2016 21:26:37 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sjc3625-SJC',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1476739597.556907,VS0,VE43',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving uva-node to /home/andy/.npm/registry.npmjs.org/uva-node/.cache.json
+27 verbose correctMkdir /home/andy/.npm correctMkdir not in flight; initializing
+28 silly addNameTag next cb for uva-node with tag latest
+29 silly addNamed uva-node@0.1.7
+30 verbose addNamed "0.1.7" is a plain semver version for uva-node
+31 silly mapToRegistry name uva-node
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'uva-node',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'uva-node',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/uva-node
+36 verbose addRemoteTarball https://registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz',
+37 verbose addRemoteTarball   '6baefd649963c23ce6b8c9ef680bd94b48f9347c' ]
+38 info retry fetch attempt 1 at 2:26:41 PM
+39 info attempt registry request try #1 at 2:26:41 PM
+40 http fetch GET https://registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz
+41 http fetch 200 https://registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz
+42 silly fetchAndShaCheck shasum 6baefd649963c23ce6b8c9ef680bd94b48f9347c
+43 verbose addTmpTarball /tmp/npm-15553-bcf19f64/registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for uva-node@0.1.7
+45 verbose correctMkdir /home/andy/.npm correctMkdir not in flight; initializing
+46 silly cache afterAdd uva-node@0.1.7
+47 verbose afterAdd /home/andy/.npm/uva-node/0.1.7/package/package.json not in flight; writing
+48 verbose correctMkdir /home/andy/.npm correctMkdir not in flight; initializing
+49 verbose afterAdd /home/andy/.npm/uva-node/0.1.7/package/package.json written
+50 silly install resolved [ { name: 'uva-node',
+50 silly install resolved     description: 'UVa Command Line Tool',
+50 silly install resolved     version: '0.1.7',
+50 silly install resolved     author: { name: 'Lucas Tan' },
+50 silly install resolved     homepage: 'https://github.com/lucastan/uva-node',
+50 silly install resolved     bugs: { url: 'https://github.com/lucastan/uva-node/issues' },
+50 silly install resolved     keywords: [ 'uva', 'programming', 'competitive', 'competition' ],
+50 silly install resolved     repository: { type: 'git', url: 'http://github.com/lucastan/uva-node.git' },
+50 silly install resolved     engines: { node: '>=0.10.0' },
+50 silly install resolved     scripts: { start: 'node .' },
+50 silly install resolved     main: 'index',
+50 silly install resolved     bin: { uva: './index.js' },
+50 silly install resolved     dependencies:
+50 silly install resolved      { async: '1.3.0',
+50 silly install resolved        colors: '~0.6.0',
+50 silly install resolved        extend: '3.0.0',
+50 silly install resolved        request: '2.58.0',
+50 silly install resolved        sprintf: '~0.1.1' },
+50 silly install resolved     gitHead: '383a72541e2a371268488e865527de560310bb13',
+50 silly install resolved     _id: 'uva-node@0.1.7',
+50 silly install resolved     _shasum: '6baefd649963c23ce6b8c9ef680bd94b48f9347c',
+50 silly install resolved     _from: 'uva-node@latest',
+50 silly install resolved     _npmVersion: '2.7.1',
+50 silly install resolved     _nodeVersion: '0.12.0',
+50 silly install resolved     _npmUser: { name: 'lucastan', email: 'tbhtan3@gmail.com' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '6baefd649963c23ce6b8c9ef680bd94b48f9347c',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz' },
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/uva-node/-/uva-node-0.1.7.tgz' } ]
+51 info install uva-node@0.1.7 into /usr/lib
+52 info installOne uva-node@0.1.7
+53 verbose installOne of uva-node to /usr/lib not in flight; installing
+54 verbose correctMkdir /home/andy/.npm/_locks correctMkdir not in flight; initializing
+55 verbose lock using /home/andy/.npm/_locks/uva-node-b60cae9166542efb.lock for /usr/lib/node_modules/uva-node
+56 silly install write writing uva-node 0.1.7 to /usr/lib/node_modules/uva-node
+57 verbose unbuild lib/node_modules/uva-node
+58 silly gentlyRm /usr/lib/node_modules/uva-node is being purged from base /usr
+59 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/uva-node
+60 verbose tar unpack /home/andy/.npm/uva-node/0.1.7/package.tgz
+61 verbose tar unpacking to /usr/lib/node_modules/uva-node
+62 silly gentlyRm /usr/lib/node_modules/uva-node is being purged
+63 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/uva-node
+64 silly gunzTarPerm modes [ '775', '664' ]
+65 error tar.unpack untar error /home/andy/.npm/uva-node/0.1.7/package.tgz
+66 verbose unlock done using /home/andy/.npm/_locks/uva-node-b60cae9166542efb.lock for /usr/lib/node_modules/uva-node
+67 verbose fstream_path /usr/lib/node_modules/uva-node
+68 verbose fstream_type Directory
+69 verbose fstream_class DirWriter
+70 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/uva-node'
+70 verbose stack     at Error (native)
+71 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+71 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+71 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+72 verbose cwd /home/andy/ACM-ICPC/UVA/graph/10034
+73 error Linux 4.4.0-36-generic
+74 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "uva-node"
+75 error node v4.4.5
+76 error npm  v2.15.5
+77 error path /usr/lib/node_modules/uva-node
+78 error code EACCES
+79 error errno -13
+80 error syscall mkdir
+81 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/uva-node'
+81 error     at Error (native)
+81 error  { [Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/uva-node']
+81 error   errno: -13,
+81 error   code: 'EACCES',
+81 error   syscall: 'mkdir',
+81 error   path: '/usr/lib/node_modules/uva-node',
+81 error   fstream_type: 'Directory',
+81 error   fstream_path: '/usr/lib/node_modules/uva-node',
+81 error   fstream_class: 'DirWriter',
+81 error   fstream_stack:
+81 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+81 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+81 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+82 error Please try running this command again as root/Administrator.
+83 verbose exit [ -13, true ]
+84 verbose unbuild lib/node_modules/uva-node
+85 silly gentlyRm /usr/lib/node_modules/uva-node is being purged from base /usr
+86 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/uva-node
